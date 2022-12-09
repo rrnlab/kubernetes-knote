@@ -9,6 +9,7 @@ pipeline {
             steps{
                 git 'https://github.com/rrnlab/kubernetes-knote.git'
             }
+        }
         stage('unit test'){
 
             steps{
@@ -17,4 +18,3 @@ pipeline {
         }
         }
     }
-}
